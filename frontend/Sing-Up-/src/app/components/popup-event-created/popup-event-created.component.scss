@@ -1,0 +1,64 @@
+.popup_card {
+  margin-left: 36vw;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 20vw;
+  max-width: 400px;
+  min-width: 200px;
+  margin: 2vw;
+  background-color: rgba(0, 0, 0, 0.824);
+  color: antiquewhite;
+  line-height: 3vh;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  -webkit-box-shadow: 20px 27px 21px -14px rgba(0, 0, 0, 0.86);
+  -moz-box-shadow: 20px 27px 21px -14px rgba(0, 0, 0, 0.86);
+  box-shadow: 20px 27px 21px -14px rgba(0, 0, 0, 0.86);
+  border: 1px solid rgb(112, 125, 239);
+  .example-header-image {
+    background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+    background-size: cover;
+  }
+
+  a:-webkit-any-link {
+    color: rgb(222, 197, 38);
+    text-decoration: none;
+    font-size: small;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .myButton {
+    margin-top: 2vh;
+    color: rgb(222, 197, 38);
+    background-color: #1a225062;
+    text-decoration: none;
+    font-size: medium;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 15px;
+    border: 1px solid #6552c7;
+    display: inline-block;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
+  a:-webkit-any-link {
+    color: rgb(244, 217, 41);
+    text-decoration: none;
+    font-size: small;
+    font-family: "Montserrat", sans-serif;
+    padding: 6px 8px;
+  }
+  .myButton:hover {
+    background-color: #0c081bc7;
+  }
+  .myButton:active {
+    position: relative;
+    top: 1px;
+  }
+  h2{
+    font-family:'Montserrat', sans-serif;
+    line-height: 3vh;
+  }
+}

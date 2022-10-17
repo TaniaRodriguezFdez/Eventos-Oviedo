@@ -1,0 +1,47 @@
+mat-toolbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(14, 14, 21, 0.811);
+  height: 8vh;
+  font-size: clamp(20px, 8vw, 33px);
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  color: rgb(238, 204, 31);
+  border-bottom: 2px solid #6552c7;
+}
+.logo {
+  width: calc(3vw + 4vh);
+  height: calc(3vw + 4vh);
+  max-width: 150px;
+  max-height: 150px;
+  min-width: 60px;
+  min-height: 60px;
+  padding: calc(1vw + 1vh);
+}
+.myButton {
+  color: rgb(222, 197, 38);
+  text-decoration: none;
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 15px;
+  border: 1px solid #6552c7;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+a:-webkit-any-link {
+  color: rgb(244, 217, 41);
+  text-decoration: none;
+  font-size: small;
+  font-family: "Montserrat", sans-serif;
+  padding: 4px 8px;
+}
+.myButton:hover {
+  background-color: #0c091dc7;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}

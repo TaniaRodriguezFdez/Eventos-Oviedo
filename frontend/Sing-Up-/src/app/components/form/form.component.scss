@@ -1,0 +1,125 @@
+$primary-color: rgba(3, 10, 51, 0.904);
+$cursor: pointer;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  background-color: #000000c6;
+  width: 600px;
+  padding-top: 2vh;
+  margin-top: 2vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  line-height: 1.5;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.185);
+  border-radius: 10px;
+  border: 2px solid rgb(112, 125, 239);
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to bottom right, #ffef9e, #ffa710);
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  .container-close {
+    position: absolute;
+    top: -15px;
+    right: -19px;
+    background-color: rgba(0, 0, 0, 0.789);
+    width: 35px;
+    height: 35px;
+
+    place-items: center;
+    font-size: 1.7rem;
+    color: rgb(113, 109, 232);
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.164);
+    border: 1px solid rgb(108, 103, 241);
+
+  }
+
+  img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .img_form {
+    width: 12vw;
+    height: 35vh;
+    min-width: 240px;
+    min-height: 370px;
+    margin: 20px;
+    border-radius: 15px;
+  }
+
+  &-text {
+    padding: 30px;
+
+    h2 {
+      font-size: 1.2rem;
+      color: #1a2250;
+    }
+
+
+
+    input,
+    button {
+      width: 100%;
+      border: none;
+      padding: 14px;
+      border-radius: 10px;
+    }
+
+    input {
+      border: 2px solid #522ec9;
+      margin: 5px 0 10px;
+      background-color:rgb(255, 255, 255);
+
+    }
+.input-text{
+  color:rgb(255, 255, 255) ;
+  font-weight: 100;
+}
+.myButton {
+  margin-top: 2vh;
+  color: rgb(222, 197, 38);
+  background-color: #1a225062;
+  text-decoration: none;
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 15px;
+  border: 1px solid #6552c7;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+a:-webkit-any-link {
+  color: rgb(244, 217, 41);
+  text-decoration: none;
+  font-size: small;
+  font-family: "Montserrat", sans-serif;
+  padding: 4px 8px;
+}
+.myButton:hover {
+  background-color: #0c081bc7;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+    }
+
+  }
+

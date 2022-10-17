@@ -1,0 +1,25 @@
+<mat-card class="card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <div class="container-close">&times;</div>
+    <mat-card-title>{{ event.titulo }}</mat-card-title>
+    <mat-card-subtitle>{{ event.fecha }}</mat-card-subtitle>
+  </mat-card-header>
+  <img
+    mat-card-image
+    src="../assets/img/{{ event.imagen }}"
+    class="imgCard"
+    alt="Photo of a Shiba Inu"
+  />
+  <mat-card-content>
+    <p>
+      {{ event.descripcion }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button class="myButton">
+      <a href="detail">ver más</a>
+    </button>
+
+  </mat-card-actions>
+</mat-card>
